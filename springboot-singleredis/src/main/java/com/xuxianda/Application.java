@@ -11,10 +11,10 @@ import org.springframework.context.annotation.ComponentScan;
  */
 @SpringBootApplication
 @ComponentScan(value = {"com.xuxianda.controller"})
-public class HelloApplication extends SpringBootServletInitializer {
+public class Application extends SpringBootServletInitializer {
 
     public static void main(String[] args) {
-        ConfigurableApplicationContext run = SpringApplication.run(HelloApplication.class, args);
+        ConfigurableApplicationContext run = SpringApplication.run(Application.class, args);
         //run.close();
     }
 
