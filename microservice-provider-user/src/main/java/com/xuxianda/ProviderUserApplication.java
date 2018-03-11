@@ -7,8 +7,8 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 /**
  * Created by Xianda Xu on 2018/3/1.
  */
-@EnableDiscoveryClient    //@EnableEurekaClient
 @SpringBootApplication
+@EnableDiscoveryClient    //@EnableEurekaClient
 public class ProviderUserApplication {
 
     public static void main(String[] args) {
