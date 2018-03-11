@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign/microservice-consumer-movie-feign.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-feign-customproperties/microservice-consumer-movie-feign-customproperties.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-feign-customproperties/microservice-consumer-movie-feign-customproperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon/microservice-consumer-movie-ribbon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-customproperties/microservice-consumer-movie-ribbon-customproperties.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-customproperties/microservice-consumer-movie-ribbon-customproperties.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-with-hystrix/microservice-consumer-movie-ribbon-with-hystrix.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-withoutEureka/microservice-consumer-movie-ribbon-withoutEureka.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-withoutEureka/microservice-consumer-movie-ribbon-withoutEureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-consumer-movie-ribbon-withoutEureka/microservice-consumer-movie-ribbon-withoutEurekan.iml" filepath="$PROJECT_DIR$/microservice-consumer-movie-ribbon-withoutEureka/microservice-consumer-movie-ribbon-withoutEurekan.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" filepath="$PROJECT_DIR$/microservice-discovery-eureka/microservice-discovery-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" filepath="$PROJECT_DIR$/microservice-provider-user/microservice-provider-user.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/springboot.iml" filepath="$PROJECT_DIR$/.idea/springboot.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-manager/springboot-manager.iml" filepath="$PROJECT_DIR$/springboot-manager/springboot-manager.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" filepath="$PROJECT_DIR$/springboot-mybatis/springboot-mybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-rediscluster/springboot-rediscluster.iml" filepath="$PROJECT_DIR$/springboot-rediscluster/springboot-rediscluster.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springboot-singleredis/springboot-singleredis.iml" filepath="$PROJECT_DIR$/springboot-singleredis/springboot-singleredis.iml" />
       <module fileurl="file://$PROJECT_DIR$/springboot-test001/springboot-test001.iml" filepath="$PROJECT_DIR$/springboot-test001/springboot-test001.iml" />
     </modules>
   </component>

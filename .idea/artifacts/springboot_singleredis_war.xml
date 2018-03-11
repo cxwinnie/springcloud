@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-singleredis:war">
+    <output-path>$PROJECT_DIR$/springboot-singleredis/target</output-path>
+    <root id="archive" name="springboot-singleredis.war">
+      <element id="artifact" artifact-name="springboot-singleredis:war exploded" />
+    </root>
+  </artifact>
+</component>

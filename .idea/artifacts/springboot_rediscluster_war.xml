@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="springboot-rediscluster:war">
+    <output-path>$PROJECT_DIR$/springboot-rediscluster/target</output-path>
+    <root id="archive" name="springboot-rediscluster.war">
+      <element id="artifact" artifact-name="springboot-rediscluster:war exploded" />
+    </root>
+  </artifact>
+</component>

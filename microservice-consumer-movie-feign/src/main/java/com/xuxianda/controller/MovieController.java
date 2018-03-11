@@ -13,7 +13,7 @@ public class MovieController {
   @Autowired
   private UserFeignClient userFeignClient;
 
-  @GetMapping("/movie/{id}")
+  @GetMapping("/movie1/{id}")
   public User findById(@PathVariable Long id) {
     return this.userFeignClient.findById(id);
   }
