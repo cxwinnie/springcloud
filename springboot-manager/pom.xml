@@ -23,6 +23,7 @@
         <module>../microservice-consumer-movie-feign-customproperties</module>
         <module>../microservice-consumer-movie-feign-hystrix</module>
         <module>../microservice-gateway-zuul</module>
+        <module>../microservice-file-upload</module>
     </modules>
 
     <packaging>pom</packaging>
@@ -33,7 +34,7 @@
         <version>1.5.9.RELEASE</version>
     </parent>
 
-    <distributionManagement>
+    <!--<distributionManagement>
         <repository>
             <id>releases</id>
             <name>Internal Releases</name>
@@ -44,7 +45,7 @@
             <name>Internal Snapshots</name>
             <url>http://127.0.0.1:8081/nexus/content/repositories/snapshots/</url>
         </snapshotRepository>
-    </distributionManagement>
+    </distributionManagement>-->
 
     <dependencyManagement>
         <dependencies>

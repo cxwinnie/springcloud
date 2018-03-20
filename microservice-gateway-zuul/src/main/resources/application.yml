@@ -9,17 +9,7 @@ eureka:
 spring:
   application:
     name: microservice-gateway-zuul
-zuul:
-  routes:
-    users:
-      path: /users/**
-      serviceId: microservice-provider-user
-
+hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
-  eureka:
-    enabled: false
-
-microservice-provider-user:             #这边是serviceId
-  ribbon:
-    listOfServers: http://127.0.0.1:7900/,http://127.0.0.1:7901/
-
+  ConnectTimeout: 3000
+  ReadTimeout: 60000
