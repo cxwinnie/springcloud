@@ -25,6 +25,7 @@
         <module>../microservice-gateway-zuul</module>
         <module>../microservice-file-upload</module>
         <module>../microservice-gateway-zuul-filter</module>
+        <module>../microservice-config-server</module>
     </modules>
 
     <packaging>pom</packaging>

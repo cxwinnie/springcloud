@@ -9,6 +9,8 @@ eureka:
 spring:
   application:
     name: microservice-gateway-zuul-filter
+  config:
+    name:
 hystrix.command.default.execution.isolation.thread.timeoutInMilliseconds: 60000
 ribbon:
   ConnectTimeout: 3000
