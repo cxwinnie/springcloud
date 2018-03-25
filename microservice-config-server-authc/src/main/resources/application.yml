@@ -4,6 +4,13 @@ spring:
       server:
         git:
           uri: https://github.com/cxwinnie/springcloud-test-config.git
+          username:
+          password:
 server:
   port: 8080
-########  http://127.0.0.1:8080/application-default/master,http://127.0.0.1:8080/application-default.yml,http://127.0.0.1:8080/application-dev.yml
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password123
